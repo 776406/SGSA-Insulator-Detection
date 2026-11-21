@@ -1,0 +1,2 @@
+# The independent core and its tests need only PyTorch.
+torch>=2.2

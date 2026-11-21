@@ -1,0 +1,4 @@
+include LICENSE README.md THIRD_PARTY_NOTICES.md requirements.txt
+recursive-include examples *.py
+global-exclude *.py[cod]
+global-exclude __pycache__

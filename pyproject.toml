@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sgsa-insulator-detection"
+version = "0.1.1rc1"
+description = "Core SGCA and Quality-Gated Inner-CIoU implementations for SGSA"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "AGPL-3.0-only"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+dependencies = ["torch>=2.2"]
+
+[tool.setuptools.packages.find]
+include = ["sgsa*"]
+
+[tool.setuptools]
+include-package-data = false
